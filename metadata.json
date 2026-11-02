@@ -1,0 +1,6 @@
+{
+  "name": "Portofolio Sistem Informasi - Hasymi",
+  "description": "Website portofolio modern mahasiswa Sistem Informasi dengan galeri proyek akademik responsif, integrasi media sosial, blog wawasan teknologi, dan formulir kontak pesan otomatis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

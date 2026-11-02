@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+    color: #1e1e2f;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f7;
+}
+::-webkit-scrollbar-thumb {
+  background: #c7c6e6;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5c50e6;
+}
+
+/* Organic blob animation & shapes */
+@keyframes blobFloat {
+  0%, 100% {
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  }
+  50% {
+    border-radius: 60% 40% 35% 65% / 55% 60% 40% 45%;
+  }
+}
+
+.blob-organic {
+  border-radius: 45% 55% 65% 35% / 40% 45% 55% 60%;
+  animation: blobFloat 8s ease-in-out infinite;
+}
+
