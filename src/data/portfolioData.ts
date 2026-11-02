@@ -14,7 +14,7 @@ export const PERSONAL_INFO = {
   whatsappUrl: 'https://wa.me/6281234567890',
   location: 'Jakarta & Bandung, Indonesia',
   bio: 'Mahasiswa Sistem Informasi dengan ketertarikan kuat dalam Arsitektur Enterprise (ERP), Rekayasa Basis Data (RDBMS & Data Warehouse), serta Analisis Proses Bisnis (BPMN 2.0). Terbiasa menjembatani kebutuhan bisnis manajemen dengan implementasi teknis perangkat lunak modern.',
-  avatar: '/src/assets/images/hero_student_profile_1791883832836.jpg',
+  avatar: '/images/hero_student_profile_1791883832836.jpg',
   stats: [
     { label: 'Indeks Prestasi Kumulatif', value: '3.89' },
     { label: 'Proyek Akademik & Mandiri', value: '16+' },
@@ -67,7 +67,7 @@ export const ACADEMIC_PROJECTS: AcademicProject[] = [
     challenge: 'Menstandarisasi alur pengadaan antar-6 laboratorium spesifik dengan format data heterogen serta mengamankan persetujuan berjenjang sesuai SOP anggaran institusi.',
     solution: 'Membangun workflow otomasi BPMN terintegrasi dengan validasi stok real-time, notification trigger ke pejabat dekanat, serta pencatatan jurnal mutasi inventaris otomatis.',
     systemArchitecture: 'React SPA Frontend · Node.js REST API Backend · PostgreSQL dengan 28 Entitas Relasional (3NF) · JWT Multi-Role Authentication · Docker Containerized.',
-    image: '/src/assets/images/project_erp_system_1791883834318.jpg',
+    image: '/images/project_erp_system_1791883834318.jpg',
     techStack: ['PostgreSQL', 'Node.js Express', 'React 19', 'Prisma ORM', 'Tailwind CSS', 'Docker'],
     role: 'Lead System Analyst & Backend Engineer',
     metrics: [
@@ -97,7 +97,7 @@ export const ACADEMIC_PROJECTS: AcademicProject[] = [
     challenge: 'Mengolah data transaksi berukuran besar dengan data kotor, duplikasi kode SKU, serta inkonsistensi penamaan cabang daerah.',
     solution: 'Membangun pipeline ETL otomatis dengan Python Pandas untuk pembersihan data, pengisian missing values, serta load terstruktur ke database analitik PostgreSQL.',
     systemArchitecture: 'PostgreSQL DW (Star Schema) · Python Pandas ETL Pipeline · Metabase & Chart Engine UI · Query Optimizer dengan Indexing GIN & B-Tree.',
-    image: '/src/assets/images/project_bi_analytics_1791883834121.jpg',
+    image: '/images/project_bi_analytics_1791883834121.jpg',
     techStack: ['PostgreSQL', 'Python (Pandas & NumPy)', 'Metabase', 'Star Schema', 'SQL Tuning', 'Chart.js'],
     role: 'Database Architect & Data Pipeline Engineer',
     metrics: [
@@ -127,7 +127,7 @@ export const ACADEMIC_PROJECTS: AcademicProject[] = [
     challenge: 'Menyinkronkan status verifikasi dokumen berkas yudisium dengan aturan syarat SKS tempuh dan sertifikat TOEFL yang sering berubah.',
     solution: 'Membuat rule-engine dinamis untuk pengecekan prasyarat otomatis sebelum mahasiswa diizinkan submit form pendaftaran sidang.',
     systemArchitecture: 'React 19 + TypeScript Frontend · Express.js REST API · Supabase PostgreSQL · Cloud Object Storage untuk PDF Naskah · Webhook Notifikasi.',
-    image: '/src/assets/images/blog_study_setup_1791883835242.jpg',
+    image: '/images/blog_study_setup_1791883835242.jpg',
     techStack: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Tailwind CSS', 'PDF Engine'],
     role: 'Fullstack Web Developer & System Analyst',
     metrics: [
@@ -157,7 +157,7 @@ export const ACADEMIC_PROJECTS: AcademicProject[] = [
     challenge: 'Tingkat stres tinggi mahasiswa saat server down pada detik-detik pembukaan kelas favorit dan interface yang rumit dipahami pada perangkat mobile.',
     solution: 'Desain alur registrasi modular "Pre-Cart Selection" (memilih jadwal sebelum periode dibuka) dan integrasi antrean tunggu interaktif yang transparan.',
     systemArchitecture: 'Figma UI/UX Design System · Camunda Modeler (BPMN 2.0) · Usability Testing Maze · System Usability Scale (SUS) Metric Framework.',
-    image: '/src/assets/images/project_erp_system_1791883834318.jpg',
+    image: '/images/project_erp_system_1791883834318.jpg',
     techStack: ['Figma', 'Camunda BPMN 2.0', 'Design Thinking', 'Usability Testing', 'Wireframing'],
     role: 'UI/UX Researcher & Process Modeling Analyst',
     metrics: [
@@ -187,7 +187,7 @@ export const ACADEMIC_PROJECTS: AcademicProject[] = [
     challenge: 'Memastikan sampel data representatif tanpa bias serta membuktikan signifikansi variabel moderasi umur dan kebiasaan digital.',
     solution: 'Menggunakan teknik purposive sampling terstruktur dan pengujian multicollinearity (VIF) menyeluruh sehingga menghasilkan model prediksi dengan R-Square 0.684.',
     systemArchitecture: 'SmartPLS 4 Structural Equation Modeling · SPSS 28 Data Screening · Google Forms Automated Pipeline · APA 7th Edition Paper Manuscript.',
-    image: '/src/assets/images/blog_study_setup_1791883835242.jpg',
+    image: '/images/blog_study_setup_1791883835242.jpg',
     techStack: ['SmartPLS 4', 'SPSS Statistics', 'SEM-PLS', 'Metodologi Penelitian', 'Riset Kuantitatif'],
     role: 'Lead Student Researcher & Data Analyst',
     metrics: [
@@ -217,7 +217,7 @@ export const ACADEMIC_PROJECTS: AcademicProject[] = [
     challenge: 'Mencegah terjadinya selisih stok (stock discrepancy) antara pencatatan fisik gudang dengan sistem pada saat penerimaan serentak.',
     solution: 'Menerapkan database transaction isolation level (ACID) dan fitur double-check scanning sebelum status barang dikonfirmasi masuk.',
     systemArchitecture: 'Vite React · Tailwind CSS · RESTful Express API · MySQL Transaction Engine · HTML5 Barcode/QR Scanner API.',
-    image: '/src/assets/images/project_bi_analytics_1791883834121.jpg',
+    image: '/images/project_bi_analytics_1791883834121.jpg',
     techStack: ['React', 'JavaScript', 'MySQL', 'Express.js', 'Tailwind CSS', 'QR/Barcode Scanner'],
     role: 'Fullstack Developer',
     metrics: [
@@ -245,7 +245,7 @@ export const BLOG_POSTS: BlogPost[] = [
     date: '10 Oktober 2026',
     readTime: '6 menit baca',
     excerpt: 'Mengapa tabel Excel biasa bisa jadi bencana jika langsung dijadikan basis data relasional? Mari bedah anomali insert, update, dan delete serta cara dekomposisi tabel yang elegan.',
-    image: '/src/assets/images/blog_study_setup_1791883835242.jpg',
+    image: '/images/blog_study_setup_1791883835242.jpg',
     tags: ['Basis Data', 'SQL', 'Normalisasi', 'PostgreSQL', 'Sistem Informasi'],
     likes: 42,
     commentsCount: 8,
@@ -277,7 +277,7 @@ Dengan menerapkan 3NF, kita memecah tabel menjadi entitas-entitas yang kohesif: 
     date: '28 September 2026',
     readTime: '8 menit baca',
     excerpt: 'Perbedaan persepsi antara stakeholder pengguna dan tim programmer sering membuat proyek software terlambat. Inilah strategi requirement engineering yang saya gunakan di kampus.',
-    image: '/src/assets/images/project_erp_system_1791883834318.jpg',
+    image: '/images/project_erp_system_1791883834318.jpg',
     tags: ['System Analysis', 'SRS', 'BPMN', 'Agile', 'Software Engineering'],
     likes: 38,
     commentsCount: 5,

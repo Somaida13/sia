@@ -46,7 +46,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenResume }) => {
                   }}
                 >
                   <img
-                    src="/src/assets/images/blog_study_setup_1791883835242.jpg"
+                    src="/images/blog_study_setup_1791883835242.jpg"
                     alt="Hasymi - Analisis Sistem dan Perancangan Basis Data"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover object-center filter brightness-100 contrast-[1.02] hover:scale-105 transition-transform duration-500"
